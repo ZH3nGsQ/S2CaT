@@ -1,3 +1,3 @@
 # S2CaT
 
-code will release soon
+# The code is about to be uploaded.
