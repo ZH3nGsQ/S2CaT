@@ -243,12 +243,8 @@ class S2CAT(nn.Module):
                                 nn.Flatten(),
                                 nn.Linear(fc_dim, num_class)
                                 )
-
-
-                                
+                        
     def forward(self,x):
-        # x.shape = [batch_size,1,patch_size,patch_size,spectral_bands]
-        # b,_,_,_,_ = x.shape
         x = self.stem(x)
         x = self.ssfusion(x)
         feature = self.catfusion(x)
