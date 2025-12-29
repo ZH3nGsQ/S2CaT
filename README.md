@@ -6,7 +6,7 @@ Here is a pytorch implementation of S2CaT.
 ## requirements
 Run the following command to install required dependencies：
 ``` bash
-cd S2CaT
+cd S2CAT
 pip install -r requirements.txt
 ```
 
